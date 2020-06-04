@@ -1,0 +1,11 @@
+python-firebase
+firebase-admin
+python3.7.6
+pandas
+nltk
+phonenumbers
+pycountry
+rasa-nlu==0.13.2
+Sklearn
+tensorflow==1.14
+sklearn_crfsuite

@@ -47,7 +47,7 @@ def bot():
         #fetch credentials
         cred = credentials.Certificate("service_account.json")
         firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://free-from-corona-virus.firebaseio.com/'
+        'databaseURL': 'https://xxxxxx.firebaseio.com/'
     })
     
     incoming_msg = request.values.get('Body', '').lower()

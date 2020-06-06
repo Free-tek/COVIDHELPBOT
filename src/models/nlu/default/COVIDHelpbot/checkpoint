@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/botosoftdev/COVID Help News API/BOT Training/./models/nlu/default/COVIDHelpbot/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/Users/botosoftdev/COVID Help News API/BOT Training/./models/nlu/default/COVIDHelpbot/intent_classifier_tensorflow_embedding.ckpt"

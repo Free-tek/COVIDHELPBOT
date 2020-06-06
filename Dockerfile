@@ -1,0 +1,10 @@
+FROM python:3.6
+
+RUN pip install absl-py==0.9.0 astor==0.8.1 attrs==19.3.0 Automat==20.2.0 boto3==1.13.18 botocore==1.16.18 CacheControl==0.12.6 cachetools==4.1.0 certifi==2020.4.5.1 characteristic==14.3.0 chardet==3.0.4 click==7.1.2 cloudpickle==1.4.1 coloredlogs==14.0 constantly==15.1.0 cycler==0.10.0 docutils==0.15.2 firebase-admin==4.3.0 Flask==1.1.2 future==0.18.2 gast==0.3.3 gevent==20.5.1 google-api-core==1.17.0 google-api-python-client==1.8.3 google-auth==1.15.0 google-auth-httplib2==0.0.3 google-cloud-core==1.3.0 google-cloud-firestore==1.7.0 google-cloud-storage==1.28.1 google-pasta==0.2.0 google-resumable-media==0.5.0 googleapis-common-protos==1.51.0 greenlet==0.4.15 grpcio==1.29.0 gunicorn==20.0.4 h5py==2.10.0 httplib2==0.18.1 humanfriendly==8.2 hyperlink==19.0.0 idna==2.9 importlib-metadata==1.6.0 incremental==17.5.0 itsdangerous==1.1.0 Jinja2==2.11.2 jmespath==0.10.0 joblib==0.15.1 jsonschema==3.2.0 Keras-Applications==1.0.8 Keras-Preprocessing==1.1.2 kiwisolver==1.2.0 klein==19.6.0 Markdown==3.2.2 MarkupSafe==1.1.1 matplotlib==3.2.1 msgpack==1.0.0 nltk==3.5 numpy==1.18.4 packaging==20.4 pandas==1.0.3 pathlib==1.0.1 phonenumbers==8.12.4 protobuf==3.12.1 pyasn1==0.4.8 pyasn1-modules==0.2.8 pycountry==19.8.18 PyHamcrest==2.0.2 PyJWT==1.7.1 pyparsing==2.4.7 pyrsistent==0.16.0 python-crfsuite==0.9.7 python-dateutil==2.8.1 python-firebase==1.2 pytz==2020.1 PyYAML==5.3.1 rasa-nlu==0.13.2 regex==2020.5.14 requests==2.23.0 rsa==4.0 s3transfer==0.3.3 scikit-learn==0.23.1 scipy==1.4.1 simplejson==3.17.0 six==1.15.0 sklearn==0.0 sklearn-crfsuite==0.3.6 tabulate==0.8.7 tensorboard==1.14.0 tensorflow==1.14.0 tensorflow-estimator==1.14.0 termcolor==1.1.0 threadpoolctl==2.0.0 tqdm==4.46.0 Tubes==0.2.0 twilio==6.40.0 Twisted==20.3.0 typing==3.7.4.1 uritemplate==3.0.1 urllib3==1.25.9 Werkzeug==1.0.1 wrapt==1.12.1 zipp==3.1.0 zope.event==4.4 zope.interface==5.1.0 
+
+COPY src/ app/
+WORKDIR /app
+
+ENV PORT 8080
+
+CMD exec gunicorn --bind :$PORT --workers 1 --thread 8 app:app

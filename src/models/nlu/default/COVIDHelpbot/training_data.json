@@ -1,0 +1,4864 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Hello",
+            "entity": ""
+          }
+        ],
+        "text": "Hello"
+      },
+      {
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "Hi",
+            "entity": ""
+          }
+        ],
+        "text": "Hi"
+      },
+      {
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "morning",
+            "entity": ""
+          }
+        ],
+        "text": "Good morning"
+      },
+      {
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "afternoon",
+            "entity": ""
+          }
+        ],
+        "text": "Good afternoon"
+      },
+      {
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "evening",
+            "entity": ""
+          }
+        ],
+        "text": "Good evening"
+      },
+      {
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "night",
+            "entity": ""
+          }
+        ],
+        "text": "Good night"
+      },
+      {
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Wassup",
+            "entity": ""
+          }
+        ],
+        "text": "Wassup"
+      },
+      {
+        "intent": "greeting",
+        "text": "Awfar"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "coughing",
+            "entity": ""
+          }
+        ],
+        "text": "I have been coughing do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "cough",
+            "entity": ""
+          }
+        ],
+        "text": "I have a cough and i want to know if i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "persistent",
+            "entity": ""
+          },
+          {
+            "start": 32,
+            "end": 37,
+            "value": "cough",
+            "entity": ""
+          }
+        ],
+        "text": "I have been having a persistent cough do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "cough",
+            "entity": ""
+          }
+        ],
+        "text": "I have a dry cough do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "loss",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "speech",
+            "entity": ""
+          },
+          {
+            "start": 38,
+            "end": 48,
+            "value": "movemement",
+            "entity": ""
+          },
+          {
+            "start": 71,
+            "end": 79,
+            "value": "symptoms",
+            "entity": ""
+          }
+        ],
+        "text": "I'm experiencing a loss in speech and movemement are those coronavirus symptoms"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "chest",
+            "entity": ""
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "pain",
+            "entity": ""
+          }
+        ],
+        "text": "I'm having chest pain and i want to know if i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "breathing",
+            "entity": ""
+          },
+          {
+            "start": 11,
+            "end": 21,
+            "value": "difficulty",
+            "entity": ""
+          }
+        ],
+        "text": "I'm having difficulty breathing and i like to know if i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "tired",
+            "entity": ""
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "feverish",
+            "entity": ""
+          }
+        ],
+        "text": "I feel tired and feverish, and will like to know if i have the coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "aches",
+            "entity": ""
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "pains",
+            "entity": ""
+          }
+        ],
+        "text": "I feel aches and pains, and will like to know if i have the coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "suffering",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 30,
+            "value": "dry",
+            "entity": ""
+          },
+          {
+            "start": 31,
+            "end": 36,
+            "value": "cough",
+            "entity": ""
+          },
+          {
+            "start": 41,
+            "end": 52,
+            "value": "sore throat",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 36,
+            "value": "dry cough",
+            "entity": ""
+          }
+        ],
+        "text": "I have been suffering from dry cough and sore throat do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "fever",
+            "entity": ""
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "throat",
+            "entity": ""
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "value": "sore",
+            "entity": ""
+          },
+          {
+            "start": 19,
+            "end": 30,
+            "value": "sore throat",
+            "entity": ""
+          }
+        ],
+        "text": "I have a fever and sore throat are those symptoms of coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "cough",
+            "entity": ""
+          },
+          {
+            "start": 23,
+            "end": 34,
+            "value": "sore throat",
+            "entity": ""
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "sore",
+            "entity": ""
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "throat",
+            "entity": ""
+          }
+        ],
+        "text": "I have had a cough and sore throat for 3 days now do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "fever",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "headache",
+            "entity": ""
+          }
+        ],
+        "text": "Does having fever and headache mean i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "body aches",
+            "entity": ""
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "body",
+            "entity": ""
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "aches",
+            "entity": ""
+          }
+        ],
+        "text": "My body aches do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "taste",
+            "entity": ""
+          },
+          {
+            "start": 2,
+            "end": 13,
+            "value": "can't taste",
+            "entity": ""
+          }
+        ],
+        "text": "I can't taste anything these days do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "value": "can't taste",
+            "entity": ""
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "smell",
+            "entity": ""
+          }
+        ],
+        "text": "I can't taste or smell anything do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "suffering",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 36,
+            "value": "diarrhoea",
+            "entity": ""
+          }
+        ],
+        "text": "I have been suffering from diarrhoea does this mean i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "rash",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "skin",
+            "entity": ""
+          }
+        ],
+        "text": "I have a rash on my skin do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "suffering",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 41,
+            "value": "discolouration",
+            "entity": ""
+          },
+          {
+            "start": 45,
+            "end": 61,
+            "value": "fingers and toes",
+            "entity": ""
+          },
+          {
+            "start": 45,
+            "end": 52,
+            "value": "fingers",
+            "entity": ""
+          },
+          {
+            "start": 57,
+            "end": 61,
+            "value": "toes",
+            "entity": ""
+          }
+        ],
+        "text": "I have been suffering from discolouration of fingers and toes do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "fingers",
+            "entity": ""
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "toes",
+            "entity": ""
+          },
+          {
+            "start": 38,
+            "end": 49,
+            "value": "discoloured",
+            "entity": ""
+          },
+          {
+            "start": 11,
+            "end": 27,
+            "value": "fingers and toes",
+            "entity": ""
+          }
+        ],
+        "text": "Hey doc my fingers and toes have been discoloured do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "fingers",
+            "entity": ""
+          },
+          {
+            "start": 23,
+            "end": 34,
+            "value": "discoloured",
+            "entity": ""
+          }
+        ],
+        "text": "Hey doc my fingers are discoloured do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "toes",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 31,
+            "value": "discoloured",
+            "entity": ""
+          }
+        ],
+        "text": "Hey doc my toes are discoloured do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "difficulty",
+            "entity": ""
+          }
+        ],
+        "text": "Hey doc i have difficulty breathing"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "difficult",
+            "entity": ""
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "breath",
+            "entity": ""
+          },
+          {
+            "start": 23,
+            "end": 42,
+            "value": "difficult to breath",
+            "entity": ""
+          }
+        ],
+        "text": "I have been finding it difficult to breath do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 26,
+            "end": 48,
+            "value": "difficulties breathing",
+            "entity": ""
+          },
+          {
+            "start": 39,
+            "end": 48,
+            "value": "breathing",
+            "entity": ""
+          }
+        ],
+        "text": "My friend has been having difficulties breathing does he have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 27,
+            "end": 49,
+            "value": "difficulties breathing",
+            "entity": ""
+          },
+          {
+            "start": 40,
+            "end": 49,
+            "value": "breathing",
+            "entity": ""
+          }
+        ],
+        "text": "My husband has been having difficulties breathing does he have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "difficulties",
+            "entity": ""
+          },
+          {
+            "start": 37,
+            "end": 46,
+            "value": "breathing",
+            "entity": ""
+          },
+          {
+            "start": 24,
+            "end": 46,
+            "value": "difficulties breathing",
+            "entity": ""
+          }
+        ],
+        "text": "My wife has been having difficulties breathing does she have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 23,
+            "end": 45,
+            "value": "difficulties breathing",
+            "entity": ""
+          },
+          {
+            "start": 36,
+            "end": 45,
+            "value": "breathing",
+            "entity": ""
+          },
+          {
+            "start": 23,
+            "end": 35,
+            "value": "difficulties",
+            "entity": ""
+          }
+        ],
+        "text": "My son has been having difficulties breathing does he have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 28,
+            "end": 40,
+            "value": "difficulties",
+            "entity": ""
+          },
+          {
+            "start": 41,
+            "end": 50,
+            "value": "breathing",
+            "entity": ""
+          },
+          {
+            "start": 28,
+            "end": 50,
+            "value": "difficulties breathing",
+            "entity": ""
+          }
+        ],
+        "text": "My daughter has been having difficulties breathing does she have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "difficulties",
+            "entity": ""
+          },
+          {
+            "start": 36,
+            "end": 45,
+            "value": "breathing",
+            "entity": ""
+          },
+          {
+            "start": 23,
+            "end": 45,
+            "value": "difficulties breathing",
+            "entity": ""
+          }
+        ],
+        "text": "My dad has been having difficulties breathing does he have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 36,
+            "end": 45,
+            "value": "breathing",
+            "entity": ""
+          },
+          {
+            "start": 23,
+            "end": 45,
+            "value": "difficulties breathing",
+            "entity": ""
+          },
+          {
+            "start": 23,
+            "end": 35,
+            "value": "difficulties",
+            "entity": ""
+          }
+        ],
+        "text": "My mom has been having difficulties breathing does she have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "difficulties",
+            "entity": ""
+          },
+          {
+            "start": 39,
+            "end": 48,
+            "value": "breathing",
+            "entity": ""
+          },
+          {
+            "start": 26,
+            "end": 48,
+            "value": "difficulties breathing",
+            "entity": ""
+          }
+        ],
+        "text": "My father has been having difficulties breathing does he have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "difficulties",
+            "entity": ""
+          },
+          {
+            "start": 39,
+            "end": 48,
+            "value": "breathing",
+            "entity": ""
+          },
+          {
+            "start": 26,
+            "end": 48,
+            "value": "difficulties breathing",
+            "entity": ""
+          }
+        ],
+        "text": "My mother has been having difficulties breathing does she have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "suffering",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 36,
+            "value": "shortness",
+            "entity": ""
+          },
+          {
+            "start": 40,
+            "end": 46,
+            "value": "breath",
+            "entity": ""
+          }
+        ],
+        "text": "i have been suffering from shortness of breath does it mean i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "chest",
+            "entity": ""
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "paining",
+            "entity": ""
+          }
+        ],
+        "text": "My chest is paining me do i have coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "chest",
+            "entity": ""
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "pain",
+            "entity": ""
+          }
+        ],
+        "text": "I have chest pain does it mean i have coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "chest",
+            "entity": ""
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "pain",
+            "entity": ""
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "symptom",
+            "entity": ""
+          },
+          {
+            "start": 3,
+            "end": 13,
+            "value": "chest pain",
+            "entity": ""
+          }
+        ],
+        "text": "is chest pain a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "dry",
+            "entity": ""
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "cough",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "value": "symptom",
+            "entity": ""
+          },
+          {
+            "start": 3,
+            "end": 12,
+            "value": "dry cough",
+            "entity": ""
+          }
+        ],
+        "text": "is dry cough a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "cough",
+            "entity": ""
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "value": "symptom",
+            "entity": ""
+          }
+        ],
+        "text": "is cough a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "tiredness",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "value": "symptom",
+            "entity": ""
+          }
+        ],
+        "text": "is tiredness a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "body",
+            "entity": ""
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "aches",
+            "entity": ""
+          },
+          {
+            "start": 3,
+            "end": 12,
+            "value": "body ache",
+            "entity": ""
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "symptom",
+            "entity": ""
+          },
+          {
+            "start": 3,
+            "end": 13,
+            "value": "body aches",
+            "entity": ""
+          }
+        ],
+        "text": "is body aches a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "aches",
+            "entity": ""
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "symptom",
+            "entity": ""
+          }
+        ],
+        "text": "are aches a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "body",
+            "entity": ""
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "pain",
+            "entity": ""
+          },
+          {
+            "start": 3,
+            "end": 12,
+            "value": "body pain",
+            "entity": ""
+          }
+        ],
+        "text": "is body pain a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "diarrhoea",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "value": "symptom",
+            "entity": ""
+          }
+        ],
+        "text": "is diarrhoea a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 17,
+            "value": "conjunctivitis",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 27,
+            "value": "symptom",
+            "entity": ""
+          }
+        ],
+        "text": "is conjunctivitis a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "headache",
+            "entity": ""
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "symptom",
+            "entity": ""
+          }
+        ],
+        "text": "is headache a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "loss",
+            "entity": ""
+          },
+          {
+            "start": 11,
+            "end": 16,
+            "value": "taste",
+            "entity": ""
+          },
+          {
+            "start": 3,
+            "end": 16,
+            "value": "loss of taste",
+            "entity": ""
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "symptom",
+            "entity": ""
+          }
+        ],
+        "text": "is loss of taste a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "loss",
+            "entity": ""
+          },
+          {
+            "start": 11,
+            "end": 16,
+            "value": "smell",
+            "entity": ""
+          },
+          {
+            "start": 3,
+            "end": 16,
+            "value": "loss of smell",
+            "entity": ""
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "symptom",
+            "entity": ""
+          }
+        ],
+        "text": "is loss of smell a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "rashes",
+            "entity": ""
+          },
+          {
+            "start": 13,
+            "end": 20,
+            "value": "symptom",
+            "entity": ""
+          }
+        ],
+        "text": "are rashes a symptom of coronavirus"
+      },
+      {
+        "intent": "symptom_question",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "body",
+            "entity": ""
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "pain",
+            "entity": ""
+          },
+          {
+            "start": 3,
+            "end": 12,
+            "value": "body pain",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "value": "symptom",
+            "entity": ""
+          }
+        ],
+        "text": "is body pain a symptom of coronavirus"
+      },
+      {
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "subscribe",
+            "entity": ""
+          }
+        ],
+        "text": "Please subscribe me"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "chronic",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "headache",
+            "entity": ""
+          },
+          {
+            "start": 19,
+            "end": 35,
+            "value": "chronic headache",
+            "entity": ""
+          }
+        ],
+        "text": "I'm experiencing a chronic headache and will like to know if i have the coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "chronic",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "headache",
+            "entity": ""
+          },
+          {
+            "start": 19,
+            "end": 35,
+            "value": "chronic headache",
+            "entity": ""
+          }
+        ],
+        "text": "I'm experiencing a chronic headache and will like to know if i have the coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "watery stool",
+            "entity": ""
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "stool",
+            "entity": ""
+          }
+        ],
+        "text": "I have been having a watery stool all day and will like to know if i have the coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 34,
+            "end": 43,
+            "value": "diarrhoea",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "severe",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 43,
+            "value": "severe diarrhoea",
+            "entity": ""
+          }
+        ],
+        "text": "I have been experiencing a severe diarrhoea all day and will like to know if i have the coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "severe",
+            "entity": ""
+          },
+          {
+            "start": 34,
+            "end": 43,
+            "value": "back pain",
+            "entity": ""
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "back",
+            "entity": ""
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "pain",
+            "entity": ""
+          }
+        ],
+        "text": "I have been experiencing a severe back pain all day and will like to know if i have the coronavirus"
+      },
+      {
+        "intent": "symptoms",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "value": "can't smell",
+            "entity": ""
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "smell",
+            "entity": ""
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "feel",
+            "entity": ""
+          }
+        ],
+        "text": "I can't smell or feel the taste of anything and will like to know if i have the coronavirus"
+      },
+      {
+        "intent": "greeting",
+        "text": "whats up"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 68,
+            "end": 73,
+            "value": "China",
+            "entity": ""
+          },
+          {
+            "start": 56,
+            "end": 63,
+            "value": "Nigeria",
+            "entity": ""
+          },
+          {
+            "start": 12,
+            "end": 22,
+            "value": "difference",
+            "entity": ""
+          }
+        ],
+        "text": "what is the difference between the coronavirus cases in Nigeria and China"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": ""
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 25,
+            "end": 34,
+            "value": "diagnosed",
+            "entity": ""
+          },
+          {
+            "start": 42,
+            "end": 45,
+            "value": "U.S",
+            "entity": ""
+          },
+          {
+            "start": 49,
+            "end": 57,
+            "value": "compared",
+            "entity": ""
+          },
+          {
+            "start": 61,
+            "end": 69,
+            "value": "Malaysia",
+            "entity": ""
+          },
+          {
+            "start": 49,
+            "end": 60,
+            "value": "compared to",
+            "entity": ""
+          }
+        ],
+        "text": "How many cases have been diagnosed in the U.S as compared to Malaysia"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "died",
+            "entity": ""
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": ""
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "people",
+            "entity": ""
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "Africa",
+            "entity": ""
+          },
+          {
+            "start": 51,
+            "end": 59,
+            "value": "compared",
+            "entity": ""
+          },
+          {
+            "start": 63,
+            "end": 69,
+            "value": "Europe",
+            "entity": ""
+          }
+        ],
+        "text": "How many people have died of coronavirus in Africa compared to Europe"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": ""
+          }
+        ],
+        "text": "How many cases have been discovered so far in China, Togo, Germany, France and Brazil"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "comparison",
+            "entity": ""
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 39,
+            "end": 45,
+            "value": "France",
+            "entity": ""
+          },
+          {
+            "start": 49,
+            "end": 54,
+            "value": "Italy",
+            "entity": ""
+          }
+        ],
+        "text": "Hey give me the comparison of cases in France vs Italy"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "highest",
+            "entity": ""
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 40,
+            "end": 45,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 46,
+            "end": 51,
+            "value": "China",
+            "entity": ""
+          },
+          {
+            "start": 55,
+            "end": 60,
+            "value": "Italy",
+            "entity": ""
+          }
+        ],
+        "text": "Which country has the highest number of cases China or Italy"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "country",
+            "entity": ""
+          },
+          {
+            "start": 18,
+            "end": 26,
+            "value": "suffered",
+            "entity": ""
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "more",
+            "entity": ""
+          },
+          {
+            "start": 44,
+            "end": 49,
+            "value": "Spain",
+            "entity": ""
+          },
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Italy",
+            "entity": ""
+          }
+        ],
+        "text": "Which country has suffered coronavirus more Spain or Italy"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "lowest",
+            "entity": ""
+          },
+          {
+            "start": 42,
+            "end": 48,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 6,
+            "end": 13,
+            "value": "country",
+            "entity": ""
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "world",
+            "entity": ""
+          },
+          {
+            "start": 64,
+            "end": 69,
+            "value": "cases",
+            "entity": ""
+          }
+        ],
+        "text": "which country in the world has the lowest number of coronavirus cases "
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "country",
+            "entity": ""
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "world",
+            "entity": ""
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "highest",
+            "entity": ""
+          },
+          {
+            "start": 43,
+            "end": 49,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 65,
+            "end": 70,
+            "value": "cases",
+            "entity": ""
+          }
+        ],
+        "text": "which country in the world has the highest number of coronavirus cases"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "top",
+            "entity": ""
+          },
+          {
+            "start": 6,
+            "end": 15,
+            "value": "countries",
+            "entity": ""
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "5",
+            "entity": ""
+          }
+        ],
+        "text": "top 5 countries with coronavirus"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "top",
+            "entity": ""
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "five",
+            "entity": ""
+          },
+          {
+            "start": 9,
+            "end": 18,
+            "value": "countries",
+            "entity": ""
+          }
+        ],
+        "text": "top five countries with coronavirus"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "distinction",
+            "entity": ""
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "between",
+            "entity": ""
+          },
+          {
+            "start": 48,
+            "end": 53,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 57,
+            "end": 64,
+            "value": "Nigeria",
+            "entity": ""
+          },
+          {
+            "start": 69,
+            "end": 74,
+            "value": "China",
+            "entity": ""
+          }
+        ],
+        "text": "what is the distinction between the coronavirus cases in Nigeria and China "
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 31,
+            "end": 39,
+            "value": "analyzed",
+            "entity": ""
+          },
+          {
+            "start": 56,
+            "end": 66,
+            "value": "contrasted",
+            "entity": ""
+          },
+          {
+            "start": 47,
+            "end": 50,
+            "value": "U.S",
+            "entity": ""
+          },
+          {
+            "start": 72,
+            "end": 80,
+            "value": "Malaysia",
+            "entity": ""
+          }
+        ],
+        "text": "What number of cases have been analyzed in the U.S when contrasted with Malaysia "
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "individuals",
+            "entity": ""
+          },
+          {
+            "start": 68,
+            "end": 74,
+            "value": "Africa",
+            "entity": ""
+          },
+          {
+            "start": 75,
+            "end": 85,
+            "value": "contrasted",
+            "entity": ""
+          },
+          {
+            "start": 91,
+            "end": 97,
+            "value": "Europe",
+            "entity": ""
+          },
+          {
+            "start": 32,
+            "end": 49,
+            "value": "kicked the bucket",
+            "entity": ""
+          }
+        ],
+        "text": "What number of individuals have kicked the bucket of coronavirus in Africa contrasted with Europe"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 47,
+            "end": 52,
+            "value": "China",
+            "entity": ""
+          },
+          {
+            "start": 31,
+            "end": 36,
+            "value": "found",
+            "entity": ""
+          },
+          {
+            "start": 54,
+            "end": 58,
+            "value": "Togo",
+            "entity": ""
+          },
+          {
+            "start": 60,
+            "end": 67,
+            "value": "Germany",
+            "entity": ""
+          },
+          {
+            "start": 69,
+            "end": 75,
+            "value": "France",
+            "entity": ""
+          },
+          {
+            "start": 80,
+            "end": 86,
+            "value": "Brazil",
+            "entity": ""
+          }
+        ],
+        "text": "What number of cases have been found so far in China, Togo, Germany, France and Brazil "
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "examination",
+            "entity": ""
+          },
+          {
+            "start": 42,
+            "end": 48,
+            "value": "France",
+            "entity": ""
+          },
+          {
+            "start": 49,
+            "end": 55,
+            "value": "versus",
+            "entity": ""
+          },
+          {
+            "start": 56,
+            "end": 61,
+            "value": "Italy",
+            "entity": ""
+          }
+        ],
+        "text": "Hello give me the examination of cases in France versus Italy "
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "nation",
+            "entity": ""
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "noteworthy",
+            "entity": ""
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "most",
+            "entity": ""
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 53,
+            "end": 58,
+            "value": "China",
+            "entity": ""
+          },
+          {
+            "start": 62,
+            "end": 67,
+            "value": "Italy",
+            "entity": ""
+          }
+        ],
+        "text": "Which nation has the most noteworthy number of cases China or Italy"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "nation",
+            "entity": ""
+          },
+          {
+            "start": 17,
+            "end": 24,
+            "value": "endured",
+            "entity": ""
+          },
+          {
+            "start": 42,
+            "end": 47,
+            "value": "Spain",
+            "entity": ""
+          },
+          {
+            "start": 51,
+            "end": 56,
+            "value": "Italy",
+            "entity": ""
+          }
+        ],
+        "text": "Which nation has endured coronavirus more Spain or Italy "
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "nation",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "planet",
+            "entity": ""
+          },
+          {
+            "start": 40,
+            "end": 47,
+            "value": "reduced",
+            "entity": ""
+          },
+          {
+            "start": 35,
+            "end": 39,
+            "value": "most",
+            "entity": ""
+          }
+        ],
+        "text": "which nation on the planet has the most reduced number of coronavirus cases "
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "nation",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "planet",
+            "entity": ""
+          },
+          {
+            "start": 35,
+            "end": 39,
+            "value": "most",
+            "entity": ""
+          },
+          {
+            "start": 40,
+            "end": 50,
+            "value": "noteworthy",
+            "entity": ""
+          },
+          {
+            "start": 51,
+            "end": 57,
+            "value": "number",
+            "entity": ""
+          }
+        ],
+        "text": "which nation on the planet has the most noteworthy number of coronavirus cases "
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "nations",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "top",
+            "entity": ""
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "5",
+            "entity": ""
+          }
+        ],
+        "text": "top 5 nations with coronavirus"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "countries",
+            "entity": ""
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "without",
+            "entity": ""
+          }
+        ],
+        "text": "countries without coronavirus"
+      },
+      {
+        "intent": "get_statsComparison",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "countries",
+            "entity": ""
+          }
+        ],
+        "text": "countries with no coronavirus cases"
+      },
+      {
+        "intent": "get_goodNews",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "good",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 26,
+            "value": "news",
+            "entity": ""
+          }
+        ],
+        "text": "show me only the good news related to coronavirus "
+      },
+      {
+        "intent": "get_goodNews",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "goodnews",
+            "entity": ""
+          }
+        ],
+        "text": "goodnews related to corona virus"
+      },
+      {
+        "intent": "get_goodNews",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "positive",
+            "entity": ""
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "news",
+            "entity": ""
+          }
+        ],
+        "text": "Send me only the positive news on coronavirus"
+      },
+      {
+        "intent": "get_goodNews",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "positive",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "reports",
+            "entity": ""
+          }
+        ],
+        "text": "what are the positive reports on coronavirus around the world"
+      },
+      {
+        "intent": "get_goodNews",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "positive",
+            "entity": ""
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "reports",
+            "entity": ""
+          }
+        ],
+        "text": "what are the latest positive reports on coronavirus"
+      },
+      {
+        "intent": "get_goodNews",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "uplifting",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 31,
+            "value": "news",
+            "entity": ""
+          }
+        ],
+        "text": "show me just the uplifting news identified with coronavirus "
+      },
+      {
+        "intent": "get_goodNews",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "good",
+            "entity": ""
+          },
+          {
+            "start": 5,
+            "end": 9,
+            "value": "news",
+            "entity": ""
+          },
+          {
+            "start": 10,
+            "end": 20,
+            "value": "identified",
+            "entity": ""
+          }
+        ],
+        "text": "good news identified with coronavirus "
+      },
+      {
+        "intent": "get_goodNews",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "positive",
+            "entity": ""
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "news",
+            "entity": ""
+          }
+        ],
+        "text": "Give me just the positive news on coronavirus "
+      },
+      {
+        "intent": "get_tips",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "tips ",
+            "entity": ""
+          },
+          {
+            "start": 36,
+            "end": 45,
+            "value": "surviving",
+            "entity": ""
+          }
+        ],
+        "text": "Please can you give me some tips on surviving this covid 19 pandemic?"
+      },
+      {
+        "intent": "get_tips",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "protect",
+            "entity": ""
+          }
+        ],
+        "text": "How can I protect myself during this covid 19 pandemic?"
+      },
+      {
+        "intent": "get_tips",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "health",
+            "entity": ""
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "steps",
+            "entity": ""
+          }
+        ],
+        "text": "What are the necessary health steps I need to take in this covid 19 epidemic?"
+      },
+      {
+        "intent": "get_tips",
+        "entities": [
+          {
+            "start": 18,
+            "end": 20,
+            "value": "do",
+            "entity": ""
+          }
+        ],
+        "text": "What do I need to do not to have this covid 19 virus?"
+      },
+      {
+        "intent": "get_tips",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "keep",
+            "entity": ""
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "safe",
+            "entity": ""
+          }
+        ],
+        "text": "How do I keep safe in this covid 19 period?"
+      },
+      {
+        "intent": "get_tips",
+        "entities": [
+          {
+            "start": 60,
+            "end": 65,
+            "value": "hints",
+            "entity": ""
+          },
+          {
+            "start": 69,
+            "end": 77,
+            "value": "enduring",
+            "entity": ""
+          }
+        ],
+        "text": "It would be ideal if you would you be able to give me a few hints on enduring this covid 19 pandemic?"
+      },
+      {
+        "intent": "get_tips",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "secure",
+            "entity": ""
+          }
+        ],
+        "text": "How might I secure myself during this covid 19 pandemic?"
+      },
+      {
+        "intent": "get_tips",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "necessary",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 33,
+            "value": " well-being",
+            "entity": ""
+          },
+          {
+            "start": 34,
+            "end": 39,
+            "value": "steps",
+            "entity": ""
+          },
+          {
+            "start": 50,
+            "end": 54,
+            "value": "take",
+            "entity": ""
+          }
+        ],
+        "text": "What are the necessary well-being steps I have to take in this covid 19 pandemic?"
+      },
+      {
+        "intent": "get_tips",
+        "entities": [
+          {
+            "start": 22,
+            "end": 24,
+            "value": "do",
+            "entity": ""
+          }
+        ],
+        "text": "What do I have to not do have this covid 19 infection?"
+      },
+      {
+        "intent": "get_tips",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "careful",
+            "entity": ""
+          }
+        ],
+        "text": "How would I be careful in this covid 19 period?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "death",
+            "entity": ""
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 37,
+            "end": 44,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "What is the number of death cases in Nigeria?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "recovered",
+            "entity": ""
+          },
+          {
+            "start": 32,
+            "end": 37,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "What is the number of recovered cases in Nigeria?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "hospital",
+            "entity": ""
+          }
+        ],
+        "text": "What is the number of cases in the hospital?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "people",
+            "entity": ""
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": ""
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "died",
+            "entity": ""
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Japan",
+            "entity": ""
+          }
+        ],
+        "text": "How many people have died in Japan?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": ""
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "people",
+            "entity": ""
+          },
+          {
+            "start": 21,
+            "end": 30,
+            "value": "recovered",
+            "entity": ""
+          },
+          {
+            "start": 34,
+            "end": 39,
+            "value": "China",
+            "entity": ""
+          }
+        ],
+        "text": "How many people have recovered in China?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": ""
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "people",
+            "entity": ""
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "hospital",
+            "entity": ""
+          },
+          {
+            "start": 45,
+            "end": 51,
+            "value": "France",
+            "entity": ""
+          }
+        ],
+        "text": "How many people are still in the hospital in France?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "statistics",
+            "entity": ""
+          },
+          {
+            "start": 39,
+            "end": 44,
+            "value": "Italy",
+            "entity": ""
+          }
+        ],
+        "text": "What is the coronavirus statistics for Italy?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "statistics",
+            "entity": ""
+          }
+        ],
+        "text": "Can I know the statistics for Nigeria as regards to the covid 19 virus?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 63,
+            "end": 65,
+            "value": "UK",
+            "entity": ""
+          }
+        ],
+        "text": "How is the current cases of the covid 19 virus looking like in UK?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "summary",
+            "entity": ""
+          },
+          {
+            "start": 43,
+            "end": 45,
+            "value": "US",
+            "entity": ""
+          }
+        ],
+        "text": "Give me a summary of the covid 19 cases in US?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "quantity",
+            "entity": ""
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "death",
+            "entity": ""
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 39,
+            "end": 46,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "What is the quantity of death cases in Nigeria?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "quantity",
+            "entity": ""
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "death",
+            "entity": ""
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 39,
+            "end": 49,
+            "value": "Madagascar",
+            "entity": ""
+          }
+        ],
+        "text": "What is the quantity of death cases in Madagascar?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "quantity",
+            "entity": ""
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "recovered",
+            "entity": ""
+          },
+          {
+            "start": 34,
+            "end": 39,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 43,
+            "end": 54,
+            "value": "SouthAfrica",
+            "entity": ""
+          }
+        ],
+        "text": "What is the quantity of recovered cases in SouthAfrica?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "quantity",
+            "entity": ""
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 37,
+            "end": 45,
+            "value": "hospital",
+            "entity": ""
+          },
+          {
+            "start": 49,
+            "end": 54,
+            "value": "Spain",
+            "entity": ""
+          }
+        ],
+        "text": "What is the quantity of cases in the hospital in Spain?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "individuals",
+            "entity": ""
+          },
+          {
+            "start": 32,
+            "end": 49,
+            "value": "kicked the bucket",
+            "entity": ""
+          },
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Tunisia",
+            "entity": ""
+          }
+        ],
+        "text": "What number of individuals have kicked the bucket in Tunisia?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "individuals",
+            "entity": ""
+          },
+          {
+            "start": 32,
+            "end": 43,
+            "value": "recuperated",
+            "entity": ""
+          },
+          {
+            "start": 47,
+            "end": 55,
+            "value": "portugal",
+            "entity": ""
+          }
+        ],
+        "text": "What number of individuals have recuperated in portugal?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "individuals",
+            "entity": ""
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "clinic",
+            "entity": ""
+          },
+          {
+            "start": 54,
+            "end": 61,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "What number of individuals are still in the clinic in Nigeria?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 28,
+            "end": 38,
+            "value": "statistics",
+            "entity": ""
+          },
+          {
+            "start": 43,
+            "end": 54,
+            "value": "North Korea",
+            "entity": ""
+          }
+        ],
+        "text": "Would I be able to know the statistics for North Korea in respects to the covid 19 infection?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "instances",
+            "entity": ""
+          },
+          {
+            "start": 71,
+            "end": 75,
+            "value": "Iran",
+            "entity": ""
+          }
+        ],
+        "text": "How is the present instances of the covid 19 infection looking like in Iran?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "occurrences",
+            "entity": ""
+          },
+          {
+            "start": 77,
+            "end": 83,
+            "value": "France",
+            "entity": ""
+          }
+        ],
+        "text": "How is the current occurrences of the covid 19 contamination looking like in France?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "outline",
+            "entity": ""
+          },
+          {
+            "start": 35,
+            "end": 40,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 44,
+            "end": 51,
+            "value": "Germany",
+            "entity": ""
+          }
+        ],
+        "text": "Give me an outline of the covid 19 cases in Germany?"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "current",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 29,
+            "value": "situation",
+            "entity": ""
+          },
+          {
+            "start": 52,
+            "end": 59,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "What is the current situation of the coronavirus in Nigeria"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "News",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Current",
+            "entity": ""
+          }
+        ],
+        "text": "Current News on coronavirus effect on Nigerian Economy"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "news",
+            "entity": ""
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "Coronavirus news on people in Nigeria"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "testing",
+            "entity": ""
+          },
+          {
+            "start": 36,
+            "end": 46,
+            "value": "facilities",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 4,
+            "value": "News",
+            "entity": ""
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "News on Nigeria coronavirus testing facilities"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "Nigeria",
+            "entity": ""
+          },
+          {
+            "start": 49,
+            "end": 58,
+            "value": "isolation",
+            "entity": ""
+          },
+          {
+            "start": 59,
+            "end": 66,
+            "value": "centers",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "state",
+            "entity": ""
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "current",
+            "entity": ""
+          },
+          {
+            "start": 71,
+            "end": 81,
+            "value": "treatments",
+            "entity": ""
+          }
+        ],
+        "text": "What is the current state of Nigeria coronavirus isolation centers and treatments carried out"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "present",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 32,
+            "value": "circumstance",
+            "entity": ""
+          },
+          {
+            "start": 55,
+            "end": 62,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "What is the present circumstance of the coronavirus in Nigeria "
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "recouped",
+            "entity": ""
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "value": "Nigeria",
+            "entity": ""
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "news",
+            "entity": ""
+          }
+        ],
+        "text": "Coronavirus news on the recouped cases in Nigeria "
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 36,
+            "end": 44,
+            "value": "location",
+            "entity": ""
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "value": "testing",
+            "entity": ""
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Nigeria",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 4,
+            "value": "News",
+            "entity": ""
+          }
+        ],
+        "text": "News on Nigeria coronavirus testing location"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "condition",
+            "entity": ""
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "current",
+            "entity": ""
+          },
+          {
+            "start": 37,
+            "end": 48,
+            "value": "coronavirus",
+            "entity": ""
+          },
+          {
+            "start": 52,
+            "end": 59,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "What is the current condition of the coronavirus in Nigeria "
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 36,
+            "end": 45,
+            "value": "Nigeria's",
+            "entity": ""
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "value": "Economy",
+            "entity": ""
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "sway",
+            "entity": ""
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "News",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Current",
+            "entity": ""
+          }
+        ],
+        "text": "Current News on coronavirus sway on Nigeria's Economy"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "news",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "Coronavirus news on corona cases in Nigeria "
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "testing",
+            "entity": ""
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "News on Nigeria coronavirus testing"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "present",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "state",
+            "entity": ""
+          },
+          {
+            "start": 48,
+            "end": 55,
+            "value": "Nigeria",
+            "entity": ""
+          }
+        ],
+        "text": "What is the present state of the coronavirus in Nigeria "
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "influence",
+            "entity": ""
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "News",
+            "entity": ""
+          }
+        ],
+        "text": "Current News on coronavirus influence on Nigeria"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "recouped",
+            "entity": ""
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "cases",
+            "entity": ""
+          }
+        ],
+        "text": "Coronavirus news on the recouped cases in Nigeria"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "current",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 29,
+            "value": "situation",
+            "entity": ""
+          },
+          {
+            "start": 37,
+            "end": 48,
+            "value": "coronavirus",
+            "entity": ""
+          },
+          {
+            "start": 52,
+            "end": 59,
+            "value": "World",
+            "entity": ""
+          }
+        ],
+        "text": "What is the current situation of the coronavirus in World"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "news",
+            "entity": ""
+          }
+        ],
+        "text": "Can i get some news on coronavirus"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "present",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 32,
+            "value": "circumstance",
+            "entity": ""
+          },
+          {
+            "start": 40,
+            "end": 51,
+            "value": "coronavirus",
+            "entity": ""
+          },
+          {
+            "start": 55,
+            "end": 62,
+            "value": "World",
+            "entity": ""
+          }
+        ],
+        "text": "What is the present circumstance of the coronavirus in World "
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Nigeria",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 4,
+            "value": "News",
+            "entity": ""
+          }
+        ],
+        "text": "News on Nigeria coronavirus "
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 38,
+            "end": 45,
+            "value": "Nigeria",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Current",
+            "entity": ""
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "News",
+            "entity": ""
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "impact",
+            "entity": ""
+          }
+        ],
+        "text": "Current News on coronavirus impact on Nigeria"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "News",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Current",
+            "entity": ""
+          },
+          {
+            "start": 38,
+            "end": 43,
+            "value": "World",
+            "entity": ""
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "effect",
+            "entity": ""
+          }
+        ],
+        "text": "Current News on coronavirus effect on World Economy"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "happening",
+            "entity": ""
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "around",
+            "entity": ""
+          },
+          {
+            "start": 40,
+            "end": 45,
+            "value": "world",
+            "entity": ""
+          }
+        ],
+        "text": "Can i know what is happening around the world"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "news",
+            "entity": ""
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "value": "world",
+            "entity": ""
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "impact",
+            "entity": ""
+          }
+        ],
+        "text": "current news on impact of COVID19 on the world"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "news",
+            "entity": ""
+          }
+        ],
+        "text": "Hey bot, give me some news on coronavirus"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "News",
+            "entity": ""
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "all",
+            "entity": ""
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "over",
+            "entity": ""
+          },
+          {
+            "start": 38,
+            "end": 43,
+            "value": "world",
+            "entity": ""
+          }
+        ],
+        "text": "News on coronavirus from all over the world"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "happening",
+            "entity": ""
+          },
+          {
+            "start": 18,
+            "end": 24,
+            "value": "around",
+            "entity": ""
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "world",
+            "entity": ""
+          }
+        ],
+        "text": "what is happening around the world right now"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "news",
+            "entity": ""
+          }
+        ],
+        "text": "coronavirus news"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "news",
+            "entity": ""
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Germany",
+            "entity": ""
+          }
+        ],
+        "text": "COVID19 news in Germany"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 50,
+            "end": 57,
+            "value": "Nigeria",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "data",
+            "entity": ""
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "need",
+            "entity": ""
+          }
+        ],
+        "text": "I need data on number of cases of corona-virus in Nigeria"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 6,
+            "end": 16,
+            "value": "statistics",
+            "entity": ""
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "Boliva",
+            "entity": ""
+          }
+        ],
+        "text": "today statistics on covid cases in Boliva"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 39,
+            "end": 44,
+            "value": "Japan",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Infected",
+            "entity": ""
+          },
+          {
+            "start": 19,
+            "end": 29,
+            "value": "recovering",
+            "entity": ""
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": " dead",
+            "entity": ""
+          }
+        ],
+        "text": "Infected, dead and recovering cases in Japan"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "how many",
+            "entity": ""
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "China",
+            "entity": ""
+          }
+        ],
+        "text": "China has how many number of cases?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 32,
+            "end": 37,
+            "value": "today",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 20,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "No of",
+            "entity": ""
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "USA ",
+            "entity": ""
+          }
+        ],
+        "text": "No of Covid 19 cases in the USA today"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "Spain",
+            "entity": ""
+          }
+        ],
+        "text": "Corona-virus cases in Spain"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": " Italy",
+            "entity": ""
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "with",
+            "entity": ""
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "people ",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Number of",
+            "entity": ""
+          }
+        ],
+        "text": "Number of people with coronavirus in Italy"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Italy",
+            "entity": ""
+          },
+          {
+            "start": 6,
+            "end": 11,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Total",
+            "entity": ""
+          }
+        ],
+        "text": "Total cases of the pandemic at Italy"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "people",
+            "entity": ""
+          },
+          {
+            "start": 26,
+            "end": 35,
+            "value": "infected ",
+            "entity": ""
+          },
+          {
+            "start": 50,
+            "end": 62,
+            "value": "South Africa",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "How many",
+            "entity": ""
+          },
+          {
+            "start": 35,
+            "end": 39,
+            "value": "with",
+            "entity": ""
+          }
+        ],
+        "text": "How many people have been infected with corona in South Africa"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 37,
+            "end": 42,
+            "value": "India",
+            "entity": ""
+          },
+          {
+            "start": 13,
+            "end": 20,
+            "value": " people",
+            "entity": ""
+          },
+          {
+            "start": 3,
+            "end": 10,
+            "value": " amount",
+            "entity": ""
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": " with",
+            "entity": ""
+          }
+        ],
+        "text": "The amount of people with covid19 in India"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "Brazil",
+            "entity": ""
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "persons",
+            "entity": ""
+          },
+          {
+            "start": 4,
+            "end": 11,
+            "value": "number ",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "with ",
+            "entity": ""
+          }
+        ],
+        "text": "The number of persons with covid19 in Brazil"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 44,
+            "end": 50,
+            "value": "France",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "How many",
+            "entity": ""
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "people ",
+            "entity": ""
+          },
+          {
+            "start": 32,
+            "end": 41,
+            "value": "infected ",
+            "entity": ""
+          }
+        ],
+        "text": "How many people have got corona infected in France"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Ireland",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Gross ",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "cases ",
+            "entity": ""
+          }
+        ],
+        "text": "Gross pandemic cases at Ireland"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "Canada",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 32,
+            "value": "sufferers ",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Number of",
+            "entity": ""
+          }
+        ],
+        "text": "Number of coronavirus sufferers in Canada"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Cases",
+            "entity": ""
+          }
+        ],
+        "text": "Cases of corona-virus"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Chile",
+            "entity": ""
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "cases ",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "No of",
+            "entity": ""
+          },
+          {
+            "start": 21,
+            "end": 27,
+            "value": "today ",
+            "entity": ""
+          }
+        ],
+        "text": "No of Covid 19 cases today in Chile"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Belgium",
+            "entity": ""
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "cases ",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "How many",
+            "entity": ""
+          }
+        ],
+        "text": "How many cases does Belgium have?"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 40,
+            "end": 46,
+            "value": "Norway",
+            "entity": ""
+          },
+          {
+            "start": 27,
+            "end": 36,
+            "value": "recovered",
+            "entity": ""
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "dead",
+            "entity": ""
+          },
+          {
+            "start": 1,
+            "end": 9,
+            "value": "Infected",
+            "entity": ""
+          }
+        ],
+        "text": " Infected, dead, and cases recovered in Norway"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 38,
+            "end": 47,
+            "value": "Hong Kong",
+            "entity": ""
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "cases ",
+            "entity": ""
+          },
+          {
+            "start": 11,
+            "end": 17,
+            "value": "today ",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Statistics",
+            "entity": ""
+          }
+        ],
+        "text": "Statistics today about covid cases in Hong Kong"
+      },
+      {
+        "intent": "get_statsCountry",
+        "entities": [
+          {
+            "start": 50,
+            "end": 55,
+            "value": "Wales",
+            "entity": ""
+          },
+          {
+            "start": 19,
+            "end": 28,
+            "value": "number of",
+            "entity": ""
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "data",
+            "entity": ""
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "value": "cases",
+            "entity": ""
+          }
+        ],
+        "text": "I need data on the number of coronavirus cases in Wales"
+      },
+      {
+        "intent": "get_statsAll",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "new",
+            "entity": ""
+          },
+          {
+            "start": 39,
+            "end": 44,
+            "value": "cases",
+            "entity": ""
+          }
+        ],
+        "text": "What is the number of new corona virus cases"
+      },
+      {
+        "intent": "get_statsAll",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": ""
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "died",
+            "entity": ""
+          }
+        ],
+        "text": "How many people have died from COVID-19"
+      },
+      {
+        "intent": "get_statsAll",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "recovery",
+            "entity": ""
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "rate",
+            "entity": ""
+          }
+        ],
+        "text": "What is the recovery rate of COVID-19"
+      },
+      {
+        "intent": "get_statsAll",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "total",
+            "entity": ""
+          },
+          {
+            "start": 18,
+            "end": 24,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 38,
+            "end": 43,
+            "value": "cases",
+            "entity": ""
+          },
+          {
+            "start": 28,
+            "end": 37,
+            "value": "confirmed",
+            "entity": ""
+          }
+        ],
+        "text": "What is the total number of confirmed cases of COVID-19"
+      },
+      {
+        "intent": "get_statsAll",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "highest",
+            "entity": ""
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "country",
+            "entity": ""
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "number",
+            "entity": ""
+          }
+        ],
+        "text": "What country has the highest number of COVID-19"
+      },
+      {
+        "intent": "get_statsAll",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "global",
+            "entity": ""
+          },
+          {
+            "start": 19,
+            "end": 29,
+            "value": "statistics",
+            "entity": ""
+          }
+        ],
+        "text": "What is the global statistics on COVID-19"
+      },
+      {
+        "intent": "get_statsAll",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "death",
+            "entity": ""
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "toll",
+            "entity": ""
+          }
+        ],
+        "text": "What is the death toll of COVID-19"
+      },
+      {
+        "intent": "get_statsAll",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Live",
+            "entity": ""
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "updates",
+            "entity": ""
+          }
+        ],
+        "text": "Live updates on corona virus"
+      },
+      {
+        "intent": "get_statsAll",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "number",
+            "entity": ""
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "active",
+            "entity": ""
+          },
+          {
+            "start": 42,
+            "end": 47,
+            "value": "cases",
+            "entity": ""
+          }
+        ],
+        "text": "What is the number of corona virus active cases"
+      },
+      {
+        "intent": "get_statsAll",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "country",
+            "entity": ""
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "worst",
+            "entity": ""
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "hit",
+            "entity": ""
+          }
+        ],
+        "text": "What country is worst hit by corona virus"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "latest",
+            "entity": ""
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "update",
+            "entity": ""
+          }
+        ],
+        "text": "What is the latest update on COVID-19"
+      },
+      {
+        "intent": "vaccine_question",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "vaccine",
+            "entity": ""
+          },
+          {
+            "start": 3,
+            "end": 8,
+            "value": "there",
+            "entity": ""
+          }
+        ],
+        "text": "Is there a vaccine for COVID-19"
+      },
+      {
+        "intent": "test_question",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "tests",
+            "entity": ""
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "detect",
+            "entity": ""
+          }
+        ],
+        "text": "What tests are available to detect COVID-19"
+      },
+      {
+        "intent": "cure_question",
+        "entities": [
+          {
+            "start": 4,
+            "end": 18,
+            "value": "nanotechnology",
+            "entity": ""
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "cure",
+            "entity": ""
+          }
+        ],
+        "text": "Can nanotechnology be used to cure corona virus"
+      },
+      {
+        "intent": "get_economyBounce",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "impact",
+            "entity": ""
+          },
+          {
+            "start": 45,
+            "end": 52,
+            "value": "economy",
+            "entity": ""
+          }
+        ],
+        "text": "What is the impact of COVID-19 on the global economy"
+      },
+      {
+        "intent": "cure_question",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "control",
+            "entity": ""
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "spread",
+            "entity": ""
+          }
+        ],
+        "text": "What is being done to control the spread of COVID-19"
+      },
+      {
+        "intent": "cure_question",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "cure",
+            "entity": ""
+          },
+          {
+            "start": 36,
+            "end": 43,
+            "value": "vaccine",
+            "entity": ""
+          }
+        ],
+        "text": "How long will it take to get a cure/vaccine for corona virus"
+      },
+      {
+        "intent": "get_economyBounce",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "affect",
+            "entity": ""
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "stock",
+            "entity": ""
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "market",
+            "entity": ""
+          }
+        ],
+        "text": "How does COVID-19 affect the stock market"
+      },
+      {
+        "intent": "get_economyBounce",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "economic",
+            "entity": ""
+          },
+          {
+            "start": 32,
+            "end": 41,
+            "value": "recession",
+            "entity": ""
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "causing",
+            "entity": ""
+          }
+        ],
+        "text": "Is COVID-19 causing an economic recession"
+      },
+      {
+        "intent": "get_economyBounce",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "economy",
+            "entity": ""
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "world",
+            "entity": ""
+          }
+        ],
+        "text": "is the world economy recovering from COVID-19"
+      },
+      {
+        "intent": "get_economyBounce",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "world",
+            "entity": ""
+          },
+          {
+            "start": 17,
+            "end": 24,
+            "value": "economy",
+            "entity": ""
+          }
+        ],
+        "text": "How is the world economy recovering from COVID19"
+      },
+      {
+        "intent": "get_economyBounce",
+        "entities": [
+          {
+            "start": 39,
+            "end": 46,
+            "value": "economy",
+            "entity": ""
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "world",
+            "entity": ""
+          }
+        ],
+        "text": "how bad has COVID19 affected the world economy"
+      },
+      {
+        "intent": "test_question",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "tested",
+            "entity": ""
+          }
+        ],
+        "text": "how can i get tested for COVID19"
+      },
+      {
+        "intent": "test_question",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "testing",
+            "entity": ""
+          }
+        ],
+        "text": "what are the ways of testing for COVID19"
+      },
+      {
+        "intent": "test_question",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "test",
+            "entity": ""
+          }
+        ],
+        "text": "How ca i request a test for COVID19"
+      },
+      {
+        "intent": "cure_question",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "cure",
+            "entity": ""
+          }
+        ],
+        "text": "is there any cure for COVID19"
+      },
+      {
+        "intent": "cure_question",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "cure",
+            "entity": ""
+          }
+        ],
+        "text": "Does Chloroquine cure COVID-19"
+      },
+      {
+        "intent": "cure_question",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "cure",
+            "entity": ""
+          }
+        ],
+        "text": "Has there been any cure for COVID19 yet?"
+      },
+      {
+        "intent": "others",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "agree",
+            "entity": ""
+          }
+        ],
+        "text": "agree"
+      },
+      {
+        "intent": "others",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "disagree",
+            "entity": ""
+          }
+        ],
+        "text": "disagree"
+      },
+      {
+        "intent": "others",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "value": "agree",
+            "entity": ""
+          }
+        ],
+        "text": "i agree"
+      },
+      {
+        "intent": "others",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "more",
+            "entity": ""
+          }
+        ],
+        "text": "more"
+      },
+      {
+        "intent": "others",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Yes",
+            "entity": ""
+          }
+        ],
+        "text": "Yes"
+      },
+      {
+        "intent": "others",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "no",
+            "entity": ""
+          }
+        ],
+        "text": "no"
+      },
+      {
+        "intent": "others",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "y",
+            "entity": ""
+          }
+        ],
+        "text": "y"
+      },
+      {
+        "intent": "others",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "n",
+            "entity": ""
+          }
+        ],
+        "text": "n"
+      },
+      {
+        "intent": "others",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "proceed",
+            "entity": ""
+          }
+        ],
+        "text": "proceed"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "reports",
+            "entity": ""
+          }
+        ],
+        "text": "can i get some reports on COVID19"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "reports",
+            "entity": ""
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "about",
+            "entity": ""
+          }
+        ],
+        "text": "what are the reports of about COVID19"
+      },
+      {
+        "intent": "get_news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "updates",
+            "entity": ""
+          }
+        ],
+        "text": "updates on coronavirus"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "Nigeria",
+            "entity": ""
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "updates",
+            "entity": ""
+          }
+        ],
+        "text": "updates on coronavirus in Nigeria"
+      },
+      {
+        "intent": "get_news_country",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "reports",
+            "entity": ""
+          }
+        ],
+        "text": "COVID19 reports in US"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

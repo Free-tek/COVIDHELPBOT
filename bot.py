@@ -72,7 +72,7 @@ def bot():
 
     otherIntents = ['get_news', 'get_news_country', 'get_tips', 'get_statsAll', 'get_statsCountry', 'get_economyBounce', 'get_goodNews', 'symptoms', 'symptom_question', 'get_tips', 'help']
     
-    firebase_instance = firebase.FirebaseApplication('https://free-from-corona-virus.firebaseio.com/')
+    firebase_instance = firebase.FirebaseApplication('https://xxxxx.firebaseio.com/')
     data = firebase_instance.get('/', None)
                
     sender = request.values.get('From', '').split(':')[1]
@@ -606,7 +606,7 @@ def bot():
             
         elif previousConversationStep == '5a' and ( 'yes' in incoming_msg or 'y' == incoming_msg) and 'not' not in incoming_msg:
         
-            firebase_instance = firebase.FirebaseApplication('https://free-from-corona-virus.firebaseio.com/')
+            firebase_instance = firebase.FirebaseApplication('https://xxxxxx.firebaseio.com/')
             data = firebase_instance.get('/', None)
         
             sender = request.values.get('From', '').split(':')[1]
@@ -683,7 +683,7 @@ def bot():
         
         elif previousConversationStep == '5b' and ( 'yes' in incoming_msg or 'y' == incoming_msg) and 'not' not in incoming_msg:
         
-            firebase_instance = firebase.FirebaseApplication('https://free-from-corona-virus.firebaseio.com/')
+            firebase_instance = firebase.FirebaseApplication('https://xxxxxx.firebaseio.com/')
             data = firebase_instance.get('/', None)
         
             sender = request.values.get('From', '').split(':')[1]
@@ -1172,7 +1172,7 @@ def getNews():
     smileyBox = ['🤔', '🤭', '😷', '🙎‍♀️', '🙎‍♂️', '🕶', '🌎', '🌍', '🚨', '🏥', '📈', '📉', '📊', '📜', '📃', '📄', '🗞', '📌', '⭕', '💭' ]
     
          
-    firebase_instance = firebase.FirebaseApplication('https://free-from-corona-virus.firebaseio.com/')
+    firebase_instance = firebase.FirebaseApplication('https://xxxxxxx.firebaseio.com/')
     data = firebase_instance.get('/', None)
         
     sender = request.values.get('From', '').split(':')[1]
@@ -1224,7 +1224,7 @@ def getNewsCountry(entity):
     
     sender = request.values.get('From', '').split(':')[1]
 
-    firebase_instance = firebase.FirebaseApplication('https://free-from-corona-virus.firebaseio.com/')
+    firebase_instance = firebase.FirebaseApplication('https://xxxxxxxx.firebaseio.com/')
     data = firebase_instance.get('/', None)
     
     
@@ -1294,7 +1294,7 @@ def getNewsCountry(entity):
 
 def doIHaveCoronavirusResponse(symptoms, incoming_msg):
 
-    firebase_instance = firebase.FirebaseApplication('https://free-from-corona-virus.firebaseio.com/')
+    firebase_instance = firebase.FirebaseApplication('https://xxxxx.firebaseio.com/')
     data = firebase_instance.get('/', None)
                
     sender = request.values.get('From', '').split(':')[1]

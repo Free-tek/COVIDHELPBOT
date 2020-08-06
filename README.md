@@ -3,7 +3,7 @@
 A whatsapp chat bot that supplies live stats on COVID-19 cases around the world and news from different countries. 
 It also hosts a self checker for advise to get tested for COVID19 or not.
 
-You can test this bot by sending a WhatsApp message to+1 415 523 8886 with code join zebra-aid, this chatbot is hosted on 
+You can test this bot by sending a WhatsApp message to+1 415 523 8886 with code "join zebra-aid" without the inverted comma, this chatbot is hosted on 
 a free server so you might have to send this message twice to wake it up 🛌, but don't worry after it wakes up, it is up
 and ready to work 🤪
 

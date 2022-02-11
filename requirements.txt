@@ -92,7 +92,7 @@ threadpoolctl==2.0.0
 tqdm==4.46.0
 Tubes==0.2.0
 twilio==6.40.0
-Twisted==20.3.0
+Twisted==22.1.0
 typing==3.7.4.1
 uritemplate==3.0.1
 urllib3==1.25.9
